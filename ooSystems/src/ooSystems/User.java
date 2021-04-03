@@ -1,5 +1,5 @@
 package ooSystems;
 
-public class System {
+public class User {
 
 }
