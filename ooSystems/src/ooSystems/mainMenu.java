@@ -70,16 +70,13 @@ public class mainMenu {
 	}
 
 	private void createAccount() {
-		User user = new User();
+		//User user = new User();
 		System.out.println("Please enter a username: ");
 		String userName = scan.next().toLowerCase();
 		System.out.println("Please enter a password (Not case-sensitive) : ");
 		String password = scan.next().toLowerCase();
 		User.accountCreation(userName, password);
 		
-		
-		
-		System.out.println("Thankyou for registering to eAuction! ");
 		
 		menu();
 		
